@@ -2,15 +2,16 @@ const User = require("../../models/User")
 
 const userCreate = async () => {
 
-  const userBody = {
-    firstName: "Gabriel",
-    lastName: "Martinez",
-    email: "Gabriel@ACADEMLO.com",
-    password: "admin",
-    phone: "+1809"
+  const user = {
+    firstName: "Sergio",
+    lastName: "Riatiga",
+    email: "sergio@gmail.com",
+    password: "sergio1234",
+    phone: "+4312"
   }
 
-  await User.create(userBody)
+  await User.create(user)
+
 }
 
 module.exports = userCreate

@@ -4,11 +4,11 @@ const express = require('express');
 
 const routerCart = express.Router();
 
-routerCart.route('/') // 🔐🔐🔐🔐🔐🔐🔐
+routerCart.route('/') // === 🔐🔐🔐 ===
   .get(getAll)
   .post(create);
 
-routerCart.route('/:id') // 🔐🔐🔐🔐🔐🔐🔐
+routerCart.route('/:id') // === 🔐🔐🔐 ===
   .delete(remove)
   .put(update);
 
