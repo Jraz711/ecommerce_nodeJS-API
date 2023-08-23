@@ -3,11 +3,11 @@ const User = require("../../models/User")
 const userCreate = async () => {
 
   const user = {
-    firstName: "Sergio",
-    lastName: "Riatiga",
-    email: "sergio@gmail.com",
-    password: "sergio1234",
-    phone: "+4312"
+    firstName: "Gabriel",
+    lastName: "Martinez",
+    email: "Gabriel@ACADEMLO.com",
+    password: "admin",
+    phone: "+1809"
   }
 
   await User.create(user)

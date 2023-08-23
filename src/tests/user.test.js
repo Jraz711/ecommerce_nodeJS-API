@@ -7,8 +7,8 @@ let userId
 
 beforeAll(async () => {
   const user = {
-    email: "sergio@gmail.com",
-    password: "sergio1234"
+    email: "Gabriel@ACADEMLO.com",
+    password: "admin"
   }
 
   const res = await request(app)
